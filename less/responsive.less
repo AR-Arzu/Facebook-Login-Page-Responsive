@@ -1,0 +1,72 @@
+// out:../css/responsive.css
+
+@media all and (max-width: 768px ) {
+    .logo-area{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .login-area{
+        width: 100%;
+        form{
+            float: none;
+            margin: auto;
+            width: 370px;
+        }
+    }
+    
+    .top-footer ul li, .bottom-footer ul li{
+        width: auto;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .mobile-area{
+        margin-right: 7%;
+    }
+    
+    .mobile-image{
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media all and (max-width: 625px){
+    .mobile-area, .signup-area{
+        float: none;
+        width: 100%;
+    }
+    .container{
+        width: 95%;
+    }
+    .mobile-text a{
+        margin-right: 10%;
+    }
+}
+
+@media all and (max-width: 400px){
+    .login-area{
+        input[type="text"], input[type="password"] {
+            width: 100%;
+        }
+    }
+    .email-area, .password-area{
+        float: none;
+        margin: 5px 0;
+    }
+    
+    .login-submit{
+        input{
+            margin: 0;
+        }
+    }
+    .signup-area{
+        input[type="text"]:first-child, input[type="text"]:nth-child(2){
+            width: 100%;
+            float: none;
+            margin-right: 0;
+        }
+    }
+}
