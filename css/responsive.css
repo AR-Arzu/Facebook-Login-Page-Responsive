@@ -8,11 +8,11 @@
   }
   .login-area {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .login-area form {
     float: none;
-    margin: auto;
-    width: 370px;
   }
   .top-footer ul li,
   .bottom-footer ul li {
@@ -42,7 +42,7 @@
     margin-right: 10%;
   }
 }
-@media all and (max-width: 400px) {
+@media all and (max-width: 445px) {
   .login-area input[type="text"],
   .login-area input[type="password"] {
     width: 100%;
